@@ -1,0 +1,68 @@
+$date
+	Fri Feb 02 20:45:17 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_AddBCD $end
+$var wire 4 ! U_actual [3:0] $end
+$var wire 4 " D_actual [3:0] $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 4 % D_expected [3:0] $end
+$var reg 4 & U_expected [3:0] $end
+$scope module uut $end
+$var wire 4 ' A [3:0] $end
+$var wire 4 ( B [3:0] $end
+$var reg 4 ) D [3:0] $end
+$var reg 4 * U [3:0] $end
+$var reg 8 + temp [7:0] $end
+$var reg 8 , temp2 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 ,
+b11 +
+b11 *
+b0 )
+b1 (
+b10 '
+b11 &
+b0 %
+b1 $
+b10 #
+b0 "
+b11 !
+$end
+#10
+b101 !
+b101 *
+b1 "
+b1 )
+b10101 ,
+b1111 +
+b101 &
+b1 %
+b110 $
+b110 (
+b1001 #
+b1001 '
+#20
+b1001 !
+b1001 *
+b11001 ,
+b10011 +
+b1001 &
+b1001 $
+b1001 (
+b1010 #
+b1010 '
+#30

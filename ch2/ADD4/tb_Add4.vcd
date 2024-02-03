@@ -1,0 +1,69 @@
+$date
+	Fri Feb 02 20:25:43 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_Add4 $end
+$var wire 6 ! S_actual [5:0] $end
+$var parameter 32 " n $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 4 % C [3:0] $end
+$var reg 4 & D [3:0] $end
+$var reg 6 ' S_expected [5:0] $end
+$scope module uut $end
+$var wire 4 ( A [3:0] $end
+$var wire 4 ) B [3:0] $end
+$var wire 4 * C [3:0] $end
+$var wire 4 + D [3:0] $end
+$var parameter 32 , n $end
+$var reg 6 - S [5:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 ,
+b100 "
+$end
+#0
+$dumpvars
+b100010 -
+b1111 +
+b1100 *
+b10 )
+b101 (
+b100010 '
+b1111 &
+b1100 %
+b10 $
+b101 #
+b100010 !
+$end
+#10
+b111100 !
+b111100 -
+b111100 '
+b1111 %
+b1111 *
+b1111 $
+b1111 )
+b1111 #
+b1111 (
+#20
+b0 !
+b0 -
+b0 '
+b0 &
+b0 +
+b0 %
+b0 *
+b0 $
+b0 )
+b0 #
+b0 (
+#30

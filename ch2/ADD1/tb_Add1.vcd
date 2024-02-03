@@ -1,0 +1,47 @@
+$date
+	Fri Feb 02 20:22:05 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_Add1 $end
+$var wire 9 ! S_actual [8:0] $end
+$var parameter 32 " n $end
+$var reg 9 # S_expected [8:0] $end
+$var reg 8 $ X [7:0] $end
+$scope module uut $end
+$var wire 8 % X [7:0] $end
+$var parameter 32 & n $end
+$var reg 9 ' S [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 &
+b1000 "
+$end
+#0
+$dumpvars
+b1101111 '
+b1101110 %
+b1101110 $
+b1101111 #
+b1101111 !
+$end
+#10
+b100000000 !
+b100000000 '
+b100000000 #
+b11111111 $
+b11111111 %
+#20
+b1 !
+b1 '
+b1 #
+b0 $
+b0 %
+#30
